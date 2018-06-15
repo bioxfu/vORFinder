@@ -7,7 +7,7 @@ library(DECIPHER)
 
 ui <- dashboardPage(
 
-  dashboardHeader(title = "Virus ORF Alignment"),
+  dashboardHeader(title = "vORFinder (version 0.1)"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Make Database", tabName = "makedatabase", icon = icon("th")),
