@@ -9,5 +9,4 @@ sudo docker exec -ti virus /bin/bash
 # in docker container
 # cd /srv/shiny-server/
 # R
-# > library(shiny)
-# > runApp(host='0.0.0.0', port=5050)
+# shiny::runApp(host='0.0.0.0', port=5050, launch.browser=FALSE)
